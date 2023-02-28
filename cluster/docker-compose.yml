@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  mosquitto:
+    build: '${PWD}/mosquitto'
+    container_name: mosquitto
+    ports:
+      - 1883:1883
